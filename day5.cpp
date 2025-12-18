@@ -129,29 +129,40 @@ int main(){
         cout<<arr[i]<<endl; 
     }
 // ques4...................................................................................
-    int n9;
-    cin>>n9;
-    int arr[n9];
-    for(int i=0;i<n9;i++){
+    int n14;
+    cin>>n14;
+    int arr[n14];
+    for(int i=0;i<n14;i++){
         cin>>arr[i];
     }    
-    for(int i=0;i<n9;i++){
-        if(arr[i]==arr[i+1]){
-            cout<<"duplicate elements are present "<<endl;
+    for(int i=0;i<n14;i++){
+        for(int j=i+1;j<n14-1;j++){
+            if(arr[i]==arr[j]){
+                cout<<"duplicate elements are present";
+            }
         }
     }
 // ques5..................................................................
-    int n9;
-    cin>>n9;
-    int arr[n9];
-    for(int i=0;i<n9;i++){
+    int n13;
+    cin>>n13;
+    int arr[n13];
+    for(int i=0;i<n13;i++){
         cin>>arr[i];
     }    
-    for(int i=0;i<n9;i++){
-        if(arr[i]==arr[i+1]){
-            cout<<"duplicate elements are present "<<endl;
-        }
+    for(int i=0;i<n13;i++){
+        int oc=0;
+        for(int j=i+1;j<n13-1;j++){
+            if(arr[i]==arr[j]){
+                oc++;
+            }
+        } 
+        if(oc%2!=0){
+            cout<<"Element is occuring odd no of times "<< endl;
+            cout<<arr[i];
+        }  
     }
+    
+    
 //section 3 (hard level) .........................................................................................................
 //ques 1............................................................
    int n10;
