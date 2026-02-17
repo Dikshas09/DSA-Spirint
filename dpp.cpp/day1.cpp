@@ -1,8 +1,8 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int main(){
-    int e,f;
+   int e,f;
     cin>>e;
     cin>>f;
     cout<<"sum of = "<<e+f<<endl;
@@ -37,4 +37,11 @@ int main(){
    cin>>a;
    cin>>b;
    cout<<a%b<<endl;   
-}
+   int n,a=3;
+   cin>>n;
+   for(int i=1;i<=n;i++){
+    cout<<a<<endl;
+    a*=3;
+   }
+  
+}*/
